@@ -6,7 +6,7 @@ Ce document contient plusieurs exercices et tests PHP effectuées durant mon app
 
 ### 1. PHP_Basics (avant git)
 
-[Lien vers mon sandbox: PHP_Basics](https://sandbox.casian.fr/ExercicesPHP/PHP_Basics/)
+[Lien vers mon sandbox: PHP_Basics](https://sandbox.casian.fr/ExercicesPHP/PHP_Basics/){:target="\_blank"}
 
 Naviquez via la navbar pour parcourir les differents exercices:
 
@@ -34,7 +34,7 @@ Naviquez via la navbar pour parcourir les differents exercices:
 ### 2. TP-Livre d'or--Blog--API_Meteo (avant git)
 
 1. **Systeme de livre d'or, formulaire avec pseudo/message (POST)** <br>
-   [Lien vers mon sandbox: TP Livre d'or](https://sandbox.casian.fr/ExercicesPHP/TP_LivreOr_Meteo_Blog/)
+   [Lien vers mon sandbox: TP Livre d'or](https://sandbox.casian.fr/ExercicesPHP/TP_LivreOr_Meteo_Blog/){:target="\_blank"}
 
 #### Compétences utilisées:
 
