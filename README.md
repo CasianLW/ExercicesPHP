@@ -54,7 +54,7 @@ Naviquez via la navbar pour parcourir les differents exercices:
 
  <pre> </pre>
 
-3. API Méteo, recuperer et afficher le
+3. API Méteo, récuperer les données méteo journalieres d'une ville et les affiches dans une page HTML (API: Open Weather).
 
 #### Compétences utilisées:
 
