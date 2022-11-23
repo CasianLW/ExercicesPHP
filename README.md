@@ -28,3 +28,35 @@ Naviquez via la navbar pour parcourir les differents exercices:
   <br>
 
  <pre> </pre>
+
+### 2. TP-Livre d'or--Blog--API_Meteo (avant git)
+
+1. Systeme de livre d'or, formulaire avec pseudo/message (POST)
+
+#### Compétences utilisées:
+
+- Gestion des erreurs
+- Modifier des données database (mysql et/ou sqlite)
+- Classes
+  <br>
+
+2. Blog, Ajout d'articles, modification et suppression.
+
+#### Compétences utilisées:
+
+- Gestion des erreurs
+- Modifier des données des bases de données
+- Lecture & écriture des fichiers
+  <br>
+
+ <pre> </pre>
+
+3. API Méteo, recuperer et afficher le
+
+#### Compétences utilisées:
+
+- composer -> curl
+- API Open Weather Map
+  <br>
+
+ <pre> </pre>
