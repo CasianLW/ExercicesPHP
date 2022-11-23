@@ -33,7 +33,7 @@ Naviquez via la navbar pour parcourir les differents exercices:
 
 ### 2. TP-Livre d'or--Blog--API_Meteo (avant git)
 
-1. Systeme de livre d'or, formulaire avec pseudo/message (POST)
+1. **Systeme de livre d'or, formulaire avec pseudo/message (POST)** <br>
    [Lien vers mon sandbox: TP Livre d'or](https://sandbox.casian.fr/ExercicesPHP/TP_LivreOr_Meteo_Blog/)
 
 #### Compétences utilisées:
@@ -43,7 +43,7 @@ Naviquez via la navbar pour parcourir les differents exercices:
 - Classes
   <br>
 
-2. Blog, Ajout d'articles, modification et suppression.
+2. **Blog, Ajout d'articles, modification et suppression.**
 
 #### Compétences utilisées:
 
@@ -54,7 +54,7 @@ Naviquez via la navbar pour parcourir les differents exercices:
 
  <pre> </pre>
 
-3. API Méteo, récuperer les données méteo journalieres d'une ville et les affiches dans une page HTML (API: Open Weather).
+3. **API Méteo, récuperer les données méteo journalieres d'une ville et les affiches dans une page HTML (API: Open Weather).**
 
 #### Compétences utilisées:
 
