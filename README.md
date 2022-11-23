@@ -6,6 +6,8 @@ Ce document contient plusieurs exercices et tests PHP effectuées durant mon app
 
 ### 1. PHP_Basics (avant git)
 
+[Lien vers sandbox.casian.fr/PHP_Basics](https://sandbox.casian.fr/ExercicesPHP/PHP_Basics/)
+
 Naviquez via la navbar pour parcourir les differents exercices:
 
 1. Accueil: compteur de visites du site + visites accélérées x2. Organisation header / footer.
