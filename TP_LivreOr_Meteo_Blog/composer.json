@@ -1,0 +1,25 @@
+{
+  "name": "casian/size",
+  "autoload": {
+    "psr-4": {
+      "Casian\\Size\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Casian",
+      "email": "ciorbcasian@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "class/"
+    }
+  },
+  "require": {
+    "erusev/parsedown": "^1.7"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^6.1"
+  }
+}
