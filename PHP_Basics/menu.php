@@ -23,9 +23,9 @@ $uri_segments = explode('/', $uri_path);
 echo $uri_segments[1]; // for www.example.com/user/account you will get 'user'
     
 if($uri_segments[1] === "PHP_Basics"){
-    $url1 =  '/ExercicesPHP/PHP_Basics';
+    $url1 =  '/PHP_Basics';
 }else{
-    $url1 =  ''; 
+    $url1 =  '/ExercicesPHP/PHP_Basics'; 
 }
 // Afficher l'URL
 // echo $url; 
