@@ -1,9 +1,15 @@
 <?php
+require_once '../vendor/autoload.php';
 
+use Dotenv\Dotenv;
+
+// $dotenv = 
+$dotenv = Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+var_dump("test dotenv: " . $_ENV['DB_USER']);
 use dump;
 use App\Post;
 
-require_once '../vendor/autoload.php';
 
 $pdo = new PDO('sqlite:../data.db', null, null, [
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
