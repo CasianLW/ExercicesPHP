@@ -6,15 +6,31 @@ use Dotenv\Dotenv;
 // $dotenv = 
 $dotenv = Dotenv::createImmutable(__DIR__);
 $dotenv->load();
-var_dump("test dotenv: " . $_ENV['DB_USER']);
+// $_ENV['S3_BUCKET'];
 use dump;
 use App\Post;
-
-
-$pdo = new PDO('sqlite:../data.db', null, null, [
-    PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ
-]);
+// pdo classique aws
+$hostname = $_ENV['DB_HOST'];
+$dbname = $_ENV['DB_NAME'];
+$user = $_ENV['DB_USER'];
+$pass = $_ENV['DB_PASSWORD'];
+$port = $_ENV['DB_PORT'];
+try {
+    $pdo = new PDO("mysql:host=$hostname;dbname=$dbname;port=$port", $user, $pass);
+    // foreach($pdo->query('SELECT * from FOO') as $row) {
+    //     print_r($row);
+    // }
+    // $pdo = null;
+    // var_dump("ca fonctionne" . $dbname);
+} catch (PDOException $e) {
+    print "Error!: " . $e->getMessage() . "<br/>";
+    die();
+}
+// pdo mysqlite
+// $pdo = new PDO('sqlite:../data.db', null, null, [
+//     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+//     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ
+// ]);
 $lienWebsite= $_SERVER['REQUEST_URI'];
 
 // $pdo->setAttribute(PDO::ATTR_ERRMODE,  PDO::ERRMODE_EXCEPTION);
