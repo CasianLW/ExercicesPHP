@@ -6,7 +6,7 @@ Ce document contient plusieurs exercices et tests PHP effectuées durant mon app
 
 ### 1. PHP_Basics (avant git)
 
-[Lien vers mon sandbox: PHP_Basics](https://sandbox.casian.fr/ExercicesPHP/PHP_Basics/){:target="\_blank"}
+[Lien vers mon sandbox: PHP_Basics](https://sandbox.casian.fr/ExercicesPHP/PHP_Basics/)
 
 Naviquez via la navbar pour parcourir les differents exercices:
 
