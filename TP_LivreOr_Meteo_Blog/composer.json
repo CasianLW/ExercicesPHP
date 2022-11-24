@@ -1,10 +1,5 @@
 {
   "name": "casian/size",
-  "autoload": {
-    "psr-4": {
-      "Casian\\Size\\": "src/"
-    }
-  },
   "authors": [
     {
       "name": "Casian",
