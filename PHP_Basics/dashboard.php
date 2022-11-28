@@ -3,8 +3,11 @@
 // $_SESSION['connecte'] = 1;
 // unset($_SESSION['connecte']);
 require_once 'functions/auth.php';
+require_once 'menu.php';
+
+
 if(!est_connecte()){
-    header('Location: /login.php');
+    header("Location: $urlLogin");
     exit();
 }
 // var_dump(est_connecte());
@@ -48,7 +51,7 @@ $mois = [
     <div class="col-md-4">
         <div class="list-group">
             <?php for ($i=0; $i < 5; $i++):?>
-            <a href="dashboard.php?annee=<?=$annee - $i?>" class="list-group-item text-decoration-underline <?= $annee - $i === $annee_selection ? 'active':'';?> "><?=$annee - $i?></a>
+            <a href="<?=$urlDashboard?>?annee=<?=$annee - $i?>" class="list-group-item text-decoration-underline <?= $annee - $i === $annee_selection ? 'active':'';?> "><?=$annee - $i?></a>
             <?php if($annee - $i === $annee_selection):?>
                 <div class="list-group">
                 <?php foreach($mois as $numero => $nom): ?>
