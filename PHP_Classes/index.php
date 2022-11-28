@@ -32,10 +32,16 @@
 require 'Form.php';
 
 
-$form = new Form(array(
-    'username' => 'Roger'
-)
-);
+// $form = new Form(array(
+//     'username' => 'Roger'
+// ));
+$form = new Form($_POST);
+?>
+
+<form action="#" method="POST">
+<?php
 echo $form->input('username');
 echo $form->input('password');
 echo $form->submit();
+?>
+</form>
