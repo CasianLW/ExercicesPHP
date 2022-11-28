@@ -31,11 +31,18 @@
 
 require_once 'Form.php';
 require_once 'text.php';
+require_once 'Personnage.php';
+
+$merlin = new Personnage("Merlin");
+$merlin -> regenerer();
+
+var_dump($merlin);
 
 // $form = new Form(array(
 //     'username' => 'Roger'
 // ));
 $form = new Form($_POST);
+var_dump(Text::publicwithZero(14));
 
 ?>
 
