@@ -1,30 +1,41 @@
 <?php
+// exercice getters / setters
+// require 'Personnage.php';
 
-require 'Personnage.php';
+// $merlin = new Personnage("Merlin");
+// $merlin->regenerer(5);
+// // $merlin->nom = "Merlin";
 
-$merlin = new Personnage("Merlin");
-$merlin->regenerer(5);
-// $merlin->nom = "Merlin";
+// $harry = new Personnage("Harry");
 
-$harry = new Personnage("Harry");
+// $merlin->getNom();
 
-$merlin->getNom();
+// $harry->getVie();
 
-$harry->getVie();
+// $harry->regenerer(15);
 
-$harry->regenerer(15);
+// var_dump($merlin->getVie());
+// var_dump($harry->getVie());
+// var_dump('<br><br><br><br><br>');
 
-var_dump($merlin->getVie());
-var_dump($harry->getVie());
-var_dump('<br><br><br><br><br>');
+// $merlin->attaque($harry);
+// var_dump($harry->getVie());
+// if($harry->mort()){
+//     echo 'Harry est mort';
+// }else {
+//     echo 'Harry a survecu avec '. $harry->getVie();
+// }
 
-$merlin->attaque($harry);
-var_dump($harry->getVie());
-if($harry->mort()){
-    echo 'Harry est mort';
-}else {
-    echo 'Harry a survecu avec '. $harry->getVie();
-}
+// // getters
+// var_dump($merlin->getNom());
 
-// getters
-var_dump($merlin->getNom());
+require 'Form.php';
+
+
+$form = new Form(array(
+    'username' => 'Roger'
+)
+);
+echo $form->input('username');
+echo $form->input('password');
+echo $form->submit();
