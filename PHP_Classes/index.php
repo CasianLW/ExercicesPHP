@@ -29,13 +29,14 @@
 // // getters
 // var_dump($merlin->getNom());
 
-require 'Form.php';
-
+require_once 'Form.php';
+require_once 'text.php';
 
 // $form = new Form(array(
 //     'username' => 'Roger'
 // ));
 $form = new Form($_POST);
+
 ?>
 
 <form action="#" method="POST">
