@@ -14,10 +14,15 @@
 
 
 <?php
-require_once 'form.php';
-require_once 'BootstrapForm.php';
-require_once 'Personnage.php';
-require_once 'Archer.php';
+// autoload
+// autoloader
+require 'class/Autoloader.php';
+Autoloader::register();
+
+// require_once 'form.php';
+// require_once 'BootstrapForm.php';
+// require_once 'Personnage.php';
+// require_once 'Archer.php';
 
 
 // $merlin = new Personnage('Merlin');

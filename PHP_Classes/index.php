@@ -29,9 +29,13 @@
 // // getters
 // var_dump($merlin->getNom());
 
-require_once 'Form.php';
-require_once 'text.php';
-require_once 'Personnage.php';
+// autoloader
+require 'class/Autoloader.php';
+Autoloader::register();
+
+// require_once 'Form.php';
+// require_once 'text.php';
+// require_once 'Personnage.php';
 
 $merlin = new Personnage("Merlin");
 $merlin -> regenerer();
