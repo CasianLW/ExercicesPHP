@@ -5,9 +5,9 @@ class Personnage {
     // ou
     const MAX_VIE = 100;
 
-    private $vie = 80;
-    private $atk = 20;
-    private $nom;
+    protected $vie = 80;
+    protected $atk = 20;
+    protected $nom;
 
     public function __construct($nom)
     {
@@ -54,7 +54,7 @@ class Personnage {
         // }
         return $this->vie <= 0;
     }
-    private function empecher_negatif(){
+    protected function empecher_negatif(){
         if($this->vie < 0){
             $this->vie = 0;
         }
