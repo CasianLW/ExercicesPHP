@@ -31,7 +31,7 @@
 
 // autoloader
 require 'class/Autoloader.php';
-Autoloader::register();
+\Tutoriel\Autoloader::register();
 
 // require_once 'Form.php';
 // require_once 'text.php';

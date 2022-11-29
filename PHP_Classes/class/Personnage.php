@@ -1,5 +1,5 @@
 <?php 
-
+namespace Tutoriel;
 class Personnage {
     private static $maxvie = 100;
     // ou

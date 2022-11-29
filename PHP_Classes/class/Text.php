@@ -1,4 +1,5 @@
 <?php
+namespace Tutoriel;
 class Text {
     private static $suffix = " €";
     const SUFFIX = " €";

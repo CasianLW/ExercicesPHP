@@ -1,3 +1,7 @@
+<?php
+namespace Tutoriel;
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,6 +20,8 @@
 <?php
 // autoload
 // autoloader
+use \Tutoriel\HTML\BootstrapForm;
+use \Tutoriel\Autoloader;
 require 'class/Autoloader.php';
 Autoloader::register();
 
@@ -25,22 +31,25 @@ Autoloader::register();
 // require_once 'Archer.php';
 
 
-// $merlin = new Personnage('Merlin');
-// $harry = new Personnage('Harry');
+$merlin = new Personnage('Merlin');
+$harry = new Personnage('Harry');
 
-// $legolas = new Archer('Legolas');
+$legolas = new Archer('Legolas');
 
-// $legolas->attaque($harry);
-// var_dump($merlin,$harry,$legolas);
+$legolas->attaque($harry);
+var_dump($merlin,$harry,$legolas);
 
 $form = new BootstrapForm($_POST);
 
 ?>
-
+<br>
+<br>
+<br>
 <form action="#" method="POST">
 <?php
 echo $form->input('username');
 echo $form->input('password');
+// echo $form->date();
 echo $form->submit();
 ?>
 </form>

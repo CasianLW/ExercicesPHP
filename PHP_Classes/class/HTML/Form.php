@@ -1,4 +1,7 @@
 <?php
+namespace Tutoriel\HTML;
+
+use DateTime;
 
 /** 
   * Class Form
@@ -52,4 +55,7 @@ class Form{
     public function submit(){
         return $this->surround('<button type="submit">Envoyer</button>');
     }
+    // public function date(){
+    //     return new \DateTime();
+    // }
 }
