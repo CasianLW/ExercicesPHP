@@ -1,0 +1,17 @@
+{
+  "name": "33783/tp_blog",
+  "authors": [
+    {
+      "name": "CasianLW",
+      "email": "ciorbcasian@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "require": {
+    "vlucas/phpdotenv": "^5.5"
+  }
+}
